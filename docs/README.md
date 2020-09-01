@@ -1,7 +1,7 @@
 ---
 home: true
-heroImage: /logo.png
-heroText: DevTut
+heroImage: /nona.webp
+heroText: Nona Documentation
 # tagline: Search Topic
 # actionText: Python →
 # actionLink: /python/

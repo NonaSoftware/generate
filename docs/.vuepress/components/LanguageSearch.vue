@@ -26,6 +26,7 @@ export default {
     return {
       search: "",
       sections: [
+        "Nona Software",
         "Essential",
         "Programming Language",
         "Database Technology", 
@@ -90,6 +91,7 @@ export default {
         { id: 42, name: "Swift", topics: 60, url: "/swift/", type: "Mobile Technology" },
         { id: 28, name: "Kotlin", topics: 38, url: "/kotlin/", type: "Mobile Technology" },
         { id: 46, name: "Xamarin", topics: 79, url: "/xamarin/", type: "Mobile Technology" },
+	      { id: 47, name: "Bioinformatics Resources", topics: 79, url: "/bioinformatics/", type: "Nona Software" },
       ]
     };
   },
@@ -132,11 +134,11 @@ export default {
 }
 
 .search input:focus {
-  border-color: #42b983;
+  border-color: #de6b35;
 }
 
 .design-arrow {
-  color: #42b983;
+  color: #de6b35;
 }
 
 @media (max-width: 719px) {
@@ -164,10 +166,10 @@ export default {
 .title {
   font-size: 34px;
   font-weight: bold;
-  border: 2px solid #42b983;
+  border: 2px solid #de6b35;
   height: 3rem;
   padding: 1rem;
-  color: #42b983;
+  color: #de6b35;
   text-align: center;
 }
 
@@ -175,7 +177,7 @@ export default {
   font-size: 16px;
   font-weight: bold;
   color: white;
-  background-color: #42b983;
+  background-color: #de6b35;
   padding: 0.5rem;
   text-align: center;
   text-transform: uppercase;

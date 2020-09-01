@@ -1,5 +1,5 @@
 module.exports = {
-  title: "DevTut",
+  title: "Nona Documentation",
   description:
     "Example based programming tutorials for solid developers. Master 45+ programming topics.",
   head: [
@@ -7,18 +7,18 @@ module.exports = {
       "link",
       {
         rel: "icon",
-        type: "image/png",
+        type: "image/webp",
         sizes: "32x32",
-        href: "/favicon-32x32.png",
+        href: "/nona.webp",
       },
     ],
     [
       "link",
       {
         rel: "icon",
-        type: "image/png",
+        type: "image/webp",
         sizes: "16x16",
-        href: "/favicon-16x16.png",
+        href: "/nona.webp",
       },
     ],
     ["link", { rel: "manifest", href: "/site.webmanifest" }],
@@ -63,7 +63,7 @@ module.exports = {
   shouldPrefetch: () => false,
   themeConfig: {
     image: "/logo.png",
-    repo: "devtut/generate",
+    repo: "nonasoftware",
     editLinks: true,
     docsDir: "docs",
     algolia: {
@@ -4024,6 +4024,22 @@ module.exports = {
             "barcode-scanning-using-zxing-library-in-xamarin-applications",
             "publishing-your-xamarin-android-apk",
             "contributors",
+          ],
+        },
+      ],
+      "/bioinformatics/": [
+        {
+          title: "Bioinformatics Resources",
+          collapsable: false,
+          children: [
+            ["", "Disclaimer"],
+            "introductory-bioinformatics",
+            "examples-databases",
+            "moving-from-web-based",
+            "example-of-script-software-package",
+            "understanding-the-computation",
+            "rosalind-bioinformatics-resources",
+            "other-resources"
           ],
         },
       ],
