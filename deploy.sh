@@ -14,13 +14,13 @@ cd docs/.vuepress/dist
 
 echo 'User-agent: *
 Disallow:
-Sitemap: https://nonasoftware.github.io/sitemap.xml
-Host: https://nonasoftwae.github.io' > robots.txt
+Sitemap: https://NonaSoftware.github.io/sitemap.xml
+Host: https://NonaSoftware.github.io' > robots.txt
 
 git init
 git add -A
 git commit -m 'deploy'
 
-git push -f git@github.com:nonasoftware/nonasoftware.github.io.git master
+git push -f git@github.com:NonaSoftware/NonaSoftware.github.io.git master
 
 cd -
