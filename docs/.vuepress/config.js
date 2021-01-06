@@ -68,7 +68,7 @@ module.exports = {
     docsDir: "docs",
     algolia: {
       apiKey: "028db77cb984cc13fd130716ea60a98c",
-      indexName: "devtut",
+      indexName: "nonasoftware",
     },
     smoothScroll: true,
     editLinkText: "Edit this page on GitHub",
@@ -4056,7 +4056,7 @@ module.exports = {
     [
       "sitemap",
       {
-        hostname: "https://devtut.github.io",
+        hostname: "https://nonasoftware.github.io",
       },
     ],
     [
